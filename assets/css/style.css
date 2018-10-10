@@ -99,13 +99,10 @@ p.blog-mata i.fa {
 	text-decoration: none;
 	
 }
-
-
-
 .blog-read-more-btn:hover{
 background: #333;
 color: #fff;
-	text-decoration: none;
+text-decoration: none;
 	
 }
 .single-blog-box:hover .blog-box-content{
