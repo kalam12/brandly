@@ -49,8 +49,9 @@ background-image: url(../img/box1.jpg);
     border-bottom: 0 solid;
 }
 .blog-box-content {
-    border: 1px solid #333;
+    border: 1px solid transparent;
 	padding: 20px;
+	transition: .3s;
 }
 
 
@@ -71,14 +72,17 @@ p.blog-mata i.fa {
 	margin-right: 0px;
 }
 
-.blog-mata h3{
+.blog-box-content h3{
 	font-size: 20px;
 	color: #666;
 	margin-top: 15px;
 	
 }
-.blog-mata p{
-	
+.blog-box-content p {
+  color: #666;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 22px;
 }
 
 .blog-read-more-btn{
@@ -89,16 +93,25 @@ p.blog-mata i.fa {
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 700;
-	margin-top: 5px;
+	margin-top: 11px;
 	background: #630000;
 	color: #fff;
+	text-decoration: none;
 	
 }
 
 
 
-
-
+.blog-read-more-btn:hover{
+background: #333;
+color: #fff;
+	text-decoration: none;
+	
+}
+.single-blog-box:hover .blog-box-content{
+	
+	border-color:#fd0e2e;
+}
 
 
 
