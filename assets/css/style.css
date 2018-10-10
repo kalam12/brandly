@@ -1,0 +1,128 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none outside none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+body {
+    color: #565656;
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+}
+.single-blog-box{
+	
+}
+
+.blob-box-bg-1{
+background-image: url(../img/box1.jpg);	
+}
+
+.section-titles {
+    color: #565656;
+    font-size: 17px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.section-titles h1 {
+    color: #222;
+    font-size: 34px;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.blog-box-bg {
+    background-color: #2222;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid #000;
+    height: 200px;
+}
+.blog-box-bg {
+    border-bottom: 0 solid;
+}
+.blog-box-content {
+    border: 1px solid #333;
+	padding: 20px;
+}
+
+
+
+p.blog-mata i.fa {
+    color: #666;
+    margin-right: 8px;
+}
+.blog-mata > a {
+    color: #666;
+    text-decoration: none;
+}
+
+.blog-mata span {
+  padding-right: 3px;
+}
+.blog-mata span:last-child{
+	margin-right: 0px;
+}
+
+.blog-mata h3{
+	font-size: 20px;
+	color: #666;
+	margin-top: 15px;
+	
+}
+.blog-mata p{
+	
+}
+
+.blog-read-more-btn{
+	
+	padding: 10px;
+	display: inline-block;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 5px;
+	background: #630000;
+	color: #fff;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
